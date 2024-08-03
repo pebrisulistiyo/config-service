@@ -26,7 +26,14 @@ Build Image with buildpack and automatic push it to registry
   -Dspring-boot.build-image.publish=true \
   -Dspring-boot.build-image.imageName=ghcr.io/<username>/config-service:0.0.1
 ```
-
+Build Image Local
+```shell
+./mvnw spring-boot:build-image -DskipTests -Dspring-boot.build-image.imageName=config-service
+```
+Load Image to Minikube◊
+```shell
+minikube image load config-service --profile books
+```
 ### Run Project
 Run project with specific profile
 ```shell
