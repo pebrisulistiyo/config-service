@@ -1,4 +1,5 @@
 ![Commit Stage](https://github.com/pebrisulistiyo/config-service/actions/workflows/commit-stage.yml/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=pebrisulistiyo_config-service&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=pebrisulistiyo_config-service)
 # config-service
 
 ### Run apps with Docker
